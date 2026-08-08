@@ -1,6 +1,6 @@
 from fastmcp import FastMCP
 import os
-import sqlite3
+#import sqlite3
 import aiosqlite
 
 DB_PATH = os.path.join(os.path.dirname(__file__), "expenses.db")
